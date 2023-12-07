@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.73)),url(/images/picture.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    height: 100vh;
+    
+}
+
+main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+
+.todo-div{
+    width: 350px;
+    height: auto;
+    background-color: rgb(245, 229, 210);
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+
+.section-1{
+    padding: 1rem;
+    color:white;
+    background-color: brown;
+    line-height: 1.5;
+    font-size: 1.5rem;
+    height: 120px;
+    position: relative;
+}
+
+.p-december{
+    font-size: 0.9rem;
+}
+
+.center-section1-section2{
+    padding: 0.5rem;
+    position: absolute;
+    top: 5.4rem;
+    
+    
+}
+
+.input-cls{
+    border: none;
+    padding: 0.8rem;
+    width: 16rem;
+    background-color: #d8b7b7;
+    margin-left: 0.2rem;
+    font-size: 1rem;
+    
+}
+
+.round-btn{
+    border: none;
+    padding: 0.9rem;
+    background-color: #E26E6E;
+    border-radius: 25px;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+
+.plus-icon-size{
+    font-size: 1.1rem;
+    color:white
+}
+
+
+.section-2{
+    margin-top: 2rem;
+    overflow-y: auto;
+    
+}
+
+
+.task-list{
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+   max-height: 68vh;
+}
+
+.strikethrough{
+    text-decoration: line-through;
+    color: rgb(102, 100, 100);
+}
+
+
+.checkbox-icon ,.square-icon{
+    margin-right: 0.4rem;
+}
+
+
+.close-icon{
+    font-size: 1.2rem;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+
+
+.individual-task{
+    margin-bottom: 1rem;
+    background-color: #d8b7b7;
+    padding: 1.5rem 0.5rem;
+    display: flex;
+    align-items: center;
+    height: auto;
+    overflow-wrap: break-word;
+}
+
+
+.text{
+    overflow: auto;
+}
+
+
+.empty-alert{
+    color: red;
+    text-align: center;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+/* @media (min-width: 768px){
+    .task-list{
+        height: 100vh;
+        overflow-y: scroll;
+    }
+} */
