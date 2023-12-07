@@ -9,4 +9,4 @@ This is a simple To-Do List application created with HTML, CSS, and JavaScript.
 - Remove tasks from the list.
 
 ## Live
-<a href="https://arshavinod14.github.io/TodoList/" target="_blank">
+<a href="https://arshavinod14.github.io/TodoList/" target="_blank"></a>
